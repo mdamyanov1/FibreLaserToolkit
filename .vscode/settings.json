@@ -1,0 +1,19 @@
+﻿{
+    "python.defaultInterpreterPath": "\\.venv\\Scripts\\python.exe",
+    "editor.formatOnSave": true,
+    "editor.rulers": [88],
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.pyc": true,
+        "**/.pytest_cache": true,
+        "**/*.egg-info": true
+    },
+    "git.autofetch": true,
+    "git.confirmSync": false
+}
