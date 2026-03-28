@@ -1,7 +1,9 @@
-﻿{
+{
     "python.defaultInterpreterPath": "\\.venv\\Scripts\\python.exe",
     "editor.formatOnSave": true,
-    "editor.rulers": [88],
+    "editor.rulers": [
+        88
+    ],
     "[python]": {
         "editor.defaultFormatter": "charliermarsh.ruff",
         "editor.codeActionsOnSave": {
@@ -15,5 +17,6 @@
         "**/*.egg-info": true
     },
     "git.autofetch": true,
-    "git.confirmSync": false
+    "git.confirmSync": false,
+    "python.REPL.enableREPLSmartSend": false
 }
