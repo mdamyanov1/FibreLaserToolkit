@@ -5,7 +5,11 @@ description = "Library for fibre optics and lasers simulations"
 readme = "README.md"
 authors = [{ name = "Martin Damyanov", email = "martindamyanov@outlook.com" }]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.4",
+    "scipy>=1.17.1",
+]
 
 license = { text = "MIT" }
 
